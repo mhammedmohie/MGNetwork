@@ -1,0 +1,38 @@
+BCSymbolMap Version: 2.0
+-[NSDictionary(encoding) prepareGetRequestParameters]
++[MGNetworkDownloader returnWelcomeMessage:withHandler:]
++[MGNetworkDownloader initialize]
++[MGNetworkDownloader get:andResult:]
+___37+[MGNetworkDownloader get:andResult:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[MGNetworkDownloader get:andParameters:andResult:]
+___51+[MGNetworkDownloader get:andParameters:andResult:]_block_invoke
+___copy_helper_block_.39
+___destroy_helper_block_.40
++[MGNetworkDownloader doRequestWithURL:andType:andParameters:andResult:]
+___72+[MGNetworkDownloader doRequestWithURL:andType:andParameters:andResult:]_block_invoke
+___copy_helper_block_.53
+___destroy_helper_block_.54
+___72+[MGNetworkDownloader doRequestWithURL:andType:andParameters:andResult:]_block_invoke.58
+___copy_helper_block_.61
+___destroy_helper_block_.62
+_requestsFiringQueue
+___block_descriptor_tmp
+___block_descriptor_tmp.41
+___block_descriptor_tmp.55
+___block_descriptor_tmp.64
+Apple LLVM version 9.0.0 (clang-900.0.38)
+/Users/gohary/Desktop/NetworkSDK/Dynamic/NEW/MGNetwork/MGNetwork/MGNetworkDownloader.m
+/Users/gohary/Desktop/NetworkSDK/Dynamic/NEW/MGNetwork
+__destroy_helper_block_
+__copy_helper_block_
+__72+[MGNetworkDownloader doRequestWithURL:andType:andParameters:andResult:]_block_invoke.58
+__72+[MGNetworkDownloader doRequestWithURL:andType:andParameters:andResult:]_block_invoke
+__51+[MGNetworkDownloader get:andParameters:andResult:]_block_invoke
+__37+[MGNetworkDownloader get:andResult:]_block_invoke
+/Users/gohary/Desktop/NetworkSDK/Dynamic/NEW/MGNetwork/MGNetwork/NSDictionary+encoding.m
+-[MGURLRequest initWithURL:requestType:andParamaeters:]
+-[MGURLRequest requestTypeStringFromType:]
+/Users/gohary/Desktop/NetworkSDK/Dynamic/NEW/MGNetwork/MGNetwork/MGURLRequest.m
+/Users/gohary/Library/Developer/Xcode/DerivedData/MGNetwork-chqlrhwqcjkukueivbpfvcbkinxa/Build/Intermediates.noindex/ArchiveIntermediates/MGNetwork/IntermediateBuildFilesPath/MGNetwork.build/Release-iphoneos/MGNetwork.build/DerivedSources/MGNetwork_vers.c

@@ -1,0 +1,23 @@
+language: objective-c
+osx_image: xcode9.1
+xcode_project: MGNetwork.xcodeproj
+xcode_scheme: MGNetwork
+xcode_sdk: iphonesimulator11.1
+env:
+  global:
+  - FRAMEWORK_NAME=MGNetwork
+before_install:
+- brew update
+- brew outdated carthage || brew upgrade carthage
+before_script:
+- carthage bootstrap
+before_deploy:
+- carthage build --no-skip-current
+- carthage archive $FRAMEWORK_NAME
+deploy:
+  provider: releases
+  api_key: 2eabbbd55f0425a5f1b263b39055ecabeb42be26
+  file: MGNetwork.framework.zip
+  on:
+    repo: mhammedmohie/MGNetwork
+    tags: true
