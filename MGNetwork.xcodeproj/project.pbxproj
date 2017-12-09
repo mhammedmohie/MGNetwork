@@ -18,6 +18,9 @@
 		FAEB39981FDC4E2500A53B7A /* NSDictionary+encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB39931FDC4E2500A53B7A /* NSDictionary+encoding.m */; };
 		FAEB39991FDC4E2500A53B7A /* MGURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB39941FDC4E2500A53B7A /* MGURLRequest.m */; };
 		FAEB399A1FDC4E2500A53B7A /* MGURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB39941FDC4E2500A53B7A /* MGURLRequest.m */; };
+		FAEB39DC1FDC6E1600A53B7A /* UIImageView+MGNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEB39DA1FDC6E1600A53B7A /* UIImageView+MGNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAEB39DD1FDC6E1600A53B7A /* UIImageView+MGNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB39DB1FDC6E1600A53B7A /* UIImageView+MGNetwork.m */; };
+		FAEB39DE1FDC6E1600A53B7A /* UIImageView+MGNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB39DB1FDC6E1600A53B7A /* UIImageView+MGNetwork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,8 @@
 		FAEB39921FDC4E2400A53B7A /* NSDictionary+encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+encoding.h"; sourceTree = "<group>"; };
 		FAEB39931FDC4E2500A53B7A /* NSDictionary+encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+encoding.m"; sourceTree = "<group>"; };
 		FAEB39941FDC4E2500A53B7A /* MGURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGURLRequest.m; sourceTree = "<group>"; };
+		FAEB39DA1FDC6E1600A53B7A /* UIImageView+MGNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MGNetwork.h"; sourceTree = "<group>"; };
+		FAEB39DB1FDC6E1600A53B7A /* UIImageView+MGNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MGNetwork.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +97,8 @@
 				FAEB39941FDC4E2500A53B7A /* MGURLRequest.m */,
 				FAEB39921FDC4E2400A53B7A /* NSDictionary+encoding.h */,
 				FAEB39931FDC4E2500A53B7A /* NSDictionary+encoding.m */,
+				FAEB39DA1FDC6E1600A53B7A /* UIImageView+MGNetwork.h */,
+				FAEB39DB1FDC6E1600A53B7A /* UIImageView+MGNetwork.m */,
 				FAEB39431FDC4A2B00A53B7A /* Info.plist */,
 			);
 			path = MGNetwork;
@@ -114,6 +121,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAEB39951FDC4E2500A53B7A /* MGURLRequest.h in Headers */,
+				FAEB39DC1FDC6E1600A53B7A /* UIImageView+MGNetwork.h in Headers */,
 				FAEB395B1FDC4A5200A53B7A /* MGNetworkDownloader.h in Headers */,
 				FAEB39961FDC4E2500A53B7A /* NSDictionary+encoding.h in Headers */,
 				FAEB39501FDC4A2B00A53B7A /* MGNetwork.h in Headers */,
@@ -221,6 +229,7 @@
 				FAEB395C1FDC4A5200A53B7A /* MGNetworkDownloader.m in Sources */,
 				FAEB39991FDC4E2500A53B7A /* MGURLRequest.m in Sources */,
 				FAEB39971FDC4E2500A53B7A /* NSDictionary+encoding.m in Sources */,
+				FAEB39DD1FDC6E1600A53B7A /* UIImageView+MGNetwork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +240,7 @@
 				FAEB394E1FDC4A2B00A53B7A /* MGNetworkTests.m in Sources */,
 				FAEB399A1FDC4E2500A53B7A /* MGURLRequest.m in Sources */,
 				FAEB39981FDC4E2500A53B7A /* NSDictionary+encoding.m in Sources */,
+				FAEB39DE1FDC6E1600A53B7A /* UIImageView+MGNetwork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
