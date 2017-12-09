@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double MGNetworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char MGNetworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MGNetwork/PublicHeader.h>
-
+#import <MGNetwork/MGNetworkDownloader.h>
 

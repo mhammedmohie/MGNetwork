@@ -10,6 +10,14 @@
 		FAEB39491FDC4A2B00A53B7A /* MGNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEB393F1FDC4A2B00A53B7A /* MGNetwork.framework */; };
 		FAEB394E1FDC4A2B00A53B7A /* MGNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB394D1FDC4A2B00A53B7A /* MGNetworkTests.m */; };
 		FAEB39501FDC4A2B00A53B7A /* MGNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEB39421FDC4A2B00A53B7A /* MGNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAEB395B1FDC4A5200A53B7A /* MGNetworkDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEB39591FDC4A5200A53B7A /* MGNetworkDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAEB395C1FDC4A5200A53B7A /* MGNetworkDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB395A1FDC4A5200A53B7A /* MGNetworkDownloader.m */; };
+		FAEB39951FDC4E2500A53B7A /* MGURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEB39911FDC4E2400A53B7A /* MGURLRequest.h */; };
+		FAEB39961FDC4E2500A53B7A /* NSDictionary+encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEB39921FDC4E2400A53B7A /* NSDictionary+encoding.h */; };
+		FAEB39971FDC4E2500A53B7A /* NSDictionary+encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB39931FDC4E2500A53B7A /* NSDictionary+encoding.m */; };
+		FAEB39981FDC4E2500A53B7A /* NSDictionary+encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB39931FDC4E2500A53B7A /* NSDictionary+encoding.m */; };
+		FAEB39991FDC4E2500A53B7A /* MGURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB39941FDC4E2500A53B7A /* MGURLRequest.m */; };
+		FAEB399A1FDC4E2500A53B7A /* MGURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB39941FDC4E2500A53B7A /* MGURLRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,12 @@
 		FAEB39481FDC4A2B00A53B7A /* MGNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEB394D1FDC4A2B00A53B7A /* MGNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGNetworkTests.m; sourceTree = "<group>"; };
 		FAEB394F1FDC4A2B00A53B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEB39591FDC4A5200A53B7A /* MGNetworkDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGNetworkDownloader.h; sourceTree = "<group>"; };
+		FAEB395A1FDC4A5200A53B7A /* MGNetworkDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGNetworkDownloader.m; sourceTree = "<group>"; };
+		FAEB39911FDC4E2400A53B7A /* MGURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGURLRequest.h; sourceTree = "<group>"; };
+		FAEB39921FDC4E2400A53B7A /* NSDictionary+encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+encoding.h"; sourceTree = "<group>"; };
+		FAEB39931FDC4E2500A53B7A /* NSDictionary+encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+encoding.m"; sourceTree = "<group>"; };
+		FAEB39941FDC4E2500A53B7A /* MGURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGURLRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +86,12 @@
 			isa = PBXGroup;
 			children = (
 				FAEB39421FDC4A2B00A53B7A /* MGNetwork.h */,
+				FAEB39591FDC4A5200A53B7A /* MGNetworkDownloader.h */,
+				FAEB395A1FDC4A5200A53B7A /* MGNetworkDownloader.m */,
+				FAEB39911FDC4E2400A53B7A /* MGURLRequest.h */,
+				FAEB39941FDC4E2500A53B7A /* MGURLRequest.m */,
+				FAEB39921FDC4E2400A53B7A /* NSDictionary+encoding.h */,
+				FAEB39931FDC4E2500A53B7A /* NSDictionary+encoding.m */,
 				FAEB39431FDC4A2B00A53B7A /* Info.plist */,
 			);
 			path = MGNetwork;
@@ -93,6 +113,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEB39951FDC4E2500A53B7A /* MGURLRequest.h in Headers */,
+				FAEB395B1FDC4A5200A53B7A /* MGNetworkDownloader.h in Headers */,
+				FAEB39961FDC4E2500A53B7A /* NSDictionary+encoding.h in Headers */,
 				FAEB39501FDC4A2B00A53B7A /* MGNetwork.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEB395C1FDC4A5200A53B7A /* MGNetworkDownloader.m in Sources */,
+				FAEB39991FDC4E2500A53B7A /* MGURLRequest.m in Sources */,
+				FAEB39971FDC4E2500A53B7A /* NSDictionary+encoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +229,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAEB394E1FDC4A2B00A53B7A /* MGNetworkTests.m in Sources */,
+				FAEB399A1FDC4E2500A53B7A /* MGURLRequest.m in Sources */,
+				FAEB39981FDC4E2500A53B7A /* NSDictionary+encoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
